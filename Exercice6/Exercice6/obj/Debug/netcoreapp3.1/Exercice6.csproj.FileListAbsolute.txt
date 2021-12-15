@@ -1,0 +1,14 @@
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\bin\Debug\netcoreapp3.1\Exercice6.exe
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\bin\Debug\netcoreapp3.1\Exercice6.deps.json
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\bin\Debug\netcoreapp3.1\Exercice6.runtimeconfig.json
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\bin\Debug\netcoreapp3.1\Exercice6.runtimeconfig.dev.json
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\bin\Debug\netcoreapp3.1\Exercice6.dll
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\bin\Debug\netcoreapp3.1\Exercice6.pdb
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\obj\Debug\netcoreapp3.1\Exercice6.csproj.AssemblyReference.cache
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\obj\Debug\netcoreapp3.1\Exercice6.GeneratedMSBuildEditorConfig.editorconfig
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\obj\Debug\netcoreapp3.1\Exercice6.AssemblyInfoInputs.cache
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\obj\Debug\netcoreapp3.1\Exercice6.AssemblyInfo.cs
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\obj\Debug\netcoreapp3.1\Exercice6.csproj.CoreCompileInputs.cache
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\obj\Debug\netcoreapp3.1\Exercice6.dll
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\obj\Debug\netcoreapp3.1\Exercice6.pdb
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice6\Exercice6\obj\Debug\netcoreapp3.1\Exercice6.genruntimeconfig.cache
