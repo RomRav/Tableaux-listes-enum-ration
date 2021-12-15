@@ -6,6 +6,7 @@ namespace Exercice5
     {
         static void Main(string[] args)
         {
+			//Création d'un tableau d'objet tornade.
             Tornado[] tornadoes = 
             {
                     new Tornado("F0", "Dégâts légers : certains dommages sont subis par les cheminées, les antennes de télévision, les bardeaux, les arbres, les enseignes et les fenêtres."), 
@@ -18,6 +19,7 @@ namespace Exercice5
             string inputType;
             Console.WriteLine("Saisissez un type de tornade (F0, F1, F2, F3, F4, F5):");
             inputType = Console.ReadLine().ToLower();
+			//Parcour le tableau et affiche les dommages du type de tornade quand il y a une concordance entre le type saisie et le type de l'objet courant.
             foreach (Tornado tornado in tornadoes)
             {
                 if (tornado.type.ToLower() == inputType)
@@ -27,11 +29,11 @@ namespace Exercice5
             }
         }
     }
+	//Class contenant les attribut d'une tornade.
     public class Tornado
     {
         public string type { get; set; }
         public string damage { get; set; }
-
         public Tornado(string tornadoType, string tornadoDamage) 
         {
             type = tornadoType;

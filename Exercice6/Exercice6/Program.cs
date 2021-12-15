@@ -2,6 +2,7 @@
 
 namespace Exercice6
 {
+	//Création d'un enumerable contenant les jour de la semaine.
     public enum week
     {
         Lundi,
@@ -16,6 +17,7 @@ namespace Exercice6
     {
         static void Main(string[] args)
         {
+			//Affichage du contenu et d'un élément de l'énumerable week.
             for(int i = 0; i < 7; i++)
             {
                 Console.WriteLine((week)i);
