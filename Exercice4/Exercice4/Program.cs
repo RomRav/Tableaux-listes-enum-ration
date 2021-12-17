@@ -8,9 +8,8 @@ namespace Exercice4
         static void Main(string[] args)
         {
             List<int> numbersToMultiply = new List<int>();
-            string multiplyString = "La multiplication est : ";
             string inputInString;
-            int result = 0;
+            int result = 1;
             bool stop = false;
             int numberToMultiply;
             string yesOrNo;
@@ -24,16 +23,7 @@ namespace Exercice4
                 if(int.TryParse(inputInString,out numberToMultiply))
                 {
                     numbersToMultiply.Add(numberToMultiply);
-                    if (numbersToMultiply.Count == 1)
-                    {
-                        multiplyString += $"{numberToMultiply}";
-                        result = numberToMultiply;
-                    }
-                    else
-                    {
-                        multiplyString += $" x {numberToMultiply}";
-                        result *= numberToMultiply;
-                    }
+                    result *= numberToMultiply;
                     while (verifInput)
                     {
                         Console.WriteLine("Voulez vous ajouter un nombre à multiplier? (oui/non)");
@@ -58,8 +48,7 @@ namespace Exercice4
                     Console.WriteLine("La saisie n'est pas un nombre.");
                 }               
             }
-            multiplyString += $" = {result}.";
-            Console.WriteLine(multiplyString);
+            Console.WriteLine($"Le produit de la multiplication : {string.Join(" x ", numbersToMultiply)} = {result}");
         }
     }
 }

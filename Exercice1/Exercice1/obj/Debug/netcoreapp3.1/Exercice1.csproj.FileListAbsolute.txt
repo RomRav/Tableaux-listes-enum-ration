@@ -11,3 +11,4 @@ C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice1\Exercice1\obj\
 C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice1\Exercice1\obj\Debug\netcoreapp3.1\Exercice1.dll
 C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice1\Exercice1\obj\Debug\netcoreapp3.1\Exercice1.pdb
 C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice1\Exercice1\obj\Debug\netcoreapp3.1\Exercice1.genruntimeconfig.cache
+C:\romain\LaManu\Les tableaux, listes et énumérations\Exercice1\Exercice1\obj\Debug\netcoreapp3.1\Exercice1.csproj.AssemblyReference.cache

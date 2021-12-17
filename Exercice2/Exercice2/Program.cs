@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Exercice2
 {
@@ -6,19 +7,20 @@ namespace Exercice2
     {
         static void Main(string[] args)
         {
-            string[] languages = new string[] { "CSS", "Javacrit", "jQuery", "PHP", "Bootstrap", "Java"};
+            List<string> languages = new List<string> { "CSS", "Javacrit", "jQuery", "PHP", "Bootstrap", "Java"};
 			//Appel de la fonction showTab
             showTab(languages);
             Console.WriteLine($"Contenu du 4e élément du tableau languages : {languages[3]}.");
             Console.WriteLine($"Contenu de l'indice 4 du tableau week : {languages[4]}.");
-            languages[5] = "C";
-            languages[1] = "Javascript";
+            languages.Remove("Bootstrap");
+            languages[languages.IndexOf("Javacrit")] = "Javascript";
+            languages.Add("C");           
             showTab(languages);
         }
 		//Fonction qui affiche le contenu d'un tabeleau
-        public static void showTab (string[] tab)
+        public static void showTab (List<string> list)
         {
-            foreach (string item in tab)
+            foreach (string item in list)
             {
                 Console.WriteLine(item);
             }
